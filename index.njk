@@ -1,0 +1,22 @@
+---
+title: The adventures of Chris, Ida, Nico and Ula
+layout: default
+---
+{% from "components/img.njk" import img as img %}
+
+<section class="intro">
+    <div class="container">
+        <div class="intro__grid">
+            <div class="intro__text">
+                <h1>Welcome to the adventures of Chris, Ida, Nico and Ula.</h1>
+                <p>This is mostly a place for us to keep track of life. You'll find photos and recipes here soon, but maybe we'll expand it in the future.</p>
+            </div>
+            <div class="intro__photos">
+                {{ img('/assets/images/family-photo.jpg') }}
+                {{ img('/assets/images/ula.jpg') }}
+            </div>
+        </div>
+    </div>
+</section>
+
+<p class="notice">👀 This is a work in progress at the moment! Check back in a bit.</p>

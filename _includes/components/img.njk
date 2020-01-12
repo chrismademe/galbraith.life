@@ -1,0 +1,8 @@
+{% macro img(src, options) %}
+<img
+    src="{{ src }}"
+    class="{{ options.class }}"
+    width="{{ options.width }}"
+    height="{{ options.height }}"
+    loading="{{ options.loading|default('lazy') }}">
+{% endmacro %}

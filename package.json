@@ -1,0 +1,23 @@
+{
+    "name": "galbraith-life",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx @11ty/eleventy",
+        "dev": "npx @11ty/eleventy --serve"
+    },
+    "keywords": [],
+    "author": "Chris Galbraith",
+    "license": "ISC",
+    "devDependencies": {
+        "@11ty/eleventy": "^0.9.0",
+        "prettier": "1.19.1"
+    },
+    "prettier": {
+        "trailingComma": "none",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true
+    }
+}
