@@ -1,0 +1,28 @@
+---
+title: To the best mum in the world!
+layout: minimal
+bodyClass: layout-padding
+---
+{% from "components/img.njk" import img as img %}
+{% set imgDir = "/assets/images/nico" %}
+
+<div class="photo-grid">
+    <div class="photo-grid__image" style="--img: url('{{ imgDir }}/Large.jpeg')"></div>
+    <div class="photo-grid__image photo-grid__image--top" style="--img: url('{{ imgDir }}/Large.jpg')"></div>
+    <div class="photo-grid__image photo-grid__image--medium" style="--img: url('{{ imgDir }}/Medium-1.jpeg')"></div>
+    <div class="photo-grid__image" style="--img: url('{{ imgDir }}/Medium-2.jpg')"></div>
+    <div class="photo-grid__image" style="--img: url('{{ imgDir }}/Medium-3.jpg')"></div>
+
+    <div class="photo-grid__image" style="--img: url('{{ imgDir }}/Medium-4.jpeg')"></div>
+    <div class="photo-grid__image" style="--img: url('{{ imgDir }}/Small-1.jpeg')"></div>
+
+    <div class="photo-grid__message">
+        <p>Happy Mother's Day to the <em>best</em> mum in the world!</p>
+    </div>
+
+    <div class="photo-grid__image photo-grid__image--medium photo-grid__image--top" style="--img: url('{{ imgDir }}/Small-3.jpeg')"></div>
+    <div class="photo-grid__image" style="--img: url('{{ imgDir }}/Small-2.jpg')"></div>
+    <div class="photo-grid__image" style="--img: url('{{ imgDir }}/Small-4.jpg')"></div>
+    <div class="photo-grid__image" style="--img: url('{{ imgDir }}/small-5.jpeg')"></div>
+
+</div>

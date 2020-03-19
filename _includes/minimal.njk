@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>{{ title }}</title>
+        {% if canonical %}<meta name="description" content="{{ description }}">{% endif %}
+        {% if canonical %}<link rel="canonical" href="{{ canonical }}">{% endif %}
+
+        <link rel="stylesheet" href="/assets/css/style.css">
+
+        <link rel="shortcut icon" type="image/png" href="/favicon.png">
+
+    </head>
+    <body class="{{ bodyClass | default('page') }}">
+
+        {{ content | safe }}
+
+    </body>
+</html>

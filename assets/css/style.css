@@ -1,23 +1,29 @@
 :root {
     --color-brand: #ee2e31;
     --color-accent: #071e22;
-    --color-primary: #171A1B;
+    --color-primary: #171a1b;
     --color-neutral: #1d7874;
     --color-grey: #679289;
     --color-pink: #f4c095;
 
-    --font-family: "CircularStd", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family: 'CircularStd', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji', 'Segoe UI Symbol';
     --font-size: 1.8rem;
 
-    --spacing: .4rem;
+    --spacing: 0.4rem;
 }
-
 
 /* Font */
 @font-face {
     font-family: 'CircularStd';
     src: url('../fonts/CircularStd-Black.eot');
-    src: url('../fonts/CircularStd-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-Black.woff') format('woff'), url('../fonts/CircularStd-Black.ttf') format('truetype'), url('../fonts/CircularStd-Black.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
+    src: url('../fonts/CircularStd-Black.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/CircularStd-Black.woff') format('woff'),
+        url('../fonts/CircularStd-Black.ttf') format('truetype'),
+        url('../fonts/CircularStd-Black.svg#bcc26993292869431e54c666aafa8fcd')
+            format('svg');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
@@ -26,7 +32,12 @@
 @font-face {
     font-family: 'CircularStd';
     src: url('../fonts/CircularStd-BlackItalic.eot');
-    src: url('../fonts/CircularStd-BlackItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-BlackItalic.woff') format('woff'), url('../fonts/CircularStd-BlackItalic.ttf') format('truetype'), url('../fonts/CircularStd-BlackItalic.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
+    src: url('../fonts/CircularStd-BlackItalic.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/CircularStd-BlackItalic.woff') format('woff'),
+        url('../fonts/CircularStd-BlackItalic.ttf') format('truetype'),
+        url('../fonts/CircularStd-BlackItalic.svg#bcc26993292869431e54c666aafa8fcd')
+            format('svg');
     font-weight: 800;
     font-style: italic;
     font-display: swap;
@@ -35,7 +46,11 @@
 @font-face {
     font-family: 'CircularStd';
     src: url('../fonts/CircularStd-Bold.eot');
-    src: url('../fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-Bold.woff') format('woff'), url('../fonts/CircularStd-Bold.ttf') format('truetype'), url('../fonts/CircularStd-Bold.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
+    src: url('../fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CircularStd-Bold.woff') format('woff'),
+        url('../fonts/CircularStd-Bold.ttf') format('truetype'),
+        url('../fonts/CircularStd-Bold.svg#bcc26993292869431e54c666aafa8fcd')
+            format('svg');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -44,7 +59,12 @@
 @font-face {
     font-family: 'CircularStd';
     src: url('../fonts/CircularStd-BoldItalic.eot');
-    src: url('../fonts/CircularStd-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-BoldItalic.woff') format('woff'), url('../fonts/CircularStd-BoldItalic.ttf') format('truetype'), url('../fonts/CircularStd-BoldItalic.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
+    src: url('../fonts/CircularStd-BoldItalic.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/CircularStd-BoldItalic.woff') format('woff'),
+        url('../fonts/CircularStd-BoldItalic.ttf') format('truetype'),
+        url('../fonts/CircularStd-BoldItalic.svg#bcc26993292869431e54c666aafa8fcd')
+            format('svg');
     font-weight: 600;
     font-style: italic;
     font-display: swap;
@@ -53,7 +73,12 @@
 @font-face {
     font-family: 'CircularStd';
     src: url('../fonts/CircularStd-Medium.eot');
-    src: url('../fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-Medium.woff') format('woff'), url('../fonts/CircularStd-Medium.ttf') format('truetype'), url('../fonts/CircularStd-Medium.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
+    src: url('../fonts/CircularStd-Medium.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/CircularStd-Medium.woff') format('woff'),
+        url('../fonts/CircularStd-Medium.ttf') format('truetype'),
+        url('../fonts/CircularStd-Medium.svg#bcc26993292869431e54c666aafa8fcd')
+            format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -62,7 +87,12 @@
 @font-face {
     font-family: 'CircularStd';
     src: url('../fonts/CircularStd-MediumItalic.eot');
-    src: url('../fonts/CircularStd-MediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-MediumItalic.woff') format('woff'), url('../fonts/CircularStd-MediumItalic.ttf') format('truetype'), url('../fonts/CircularStd-MediumItalic.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
+    src: url('../fonts/CircularStd-MediumItalic.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/CircularStd-MediumItalic.woff') format('woff'),
+        url('../fonts/CircularStd-MediumItalic.ttf') format('truetype'),
+        url('../fonts/CircularStd-MediumItalic.svg#bcc26993292869431e54c666aafa8fcd')
+            format('svg');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -71,7 +101,11 @@
 @font-face {
     font-family: 'CircularStd';
     src: url('../fonts/CircularStd-Book.eot');
-    src: url('../fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-Book.woff') format('woff'), url('../fonts/CircularStd-Book.ttf') format('truetype'), url('../fonts/CircularStd-Book.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
+    src: url('../fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CircularStd-Book.woff') format('woff'),
+        url('../fonts/CircularStd-Book.ttf') format('truetype'),
+        url('../fonts/CircularStd-Book.svg#bcc26993292869431e54c666aafa8fcd')
+            format('svg');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -80,7 +114,12 @@
 @font-face {
     font-family: 'CircularStd';
     src: url('../fonts/CircularStd-BookItalic.eot');
-    src: url('../fonts/CircularStd-BookItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-BookItalic.woff') format('woff'), url('../fonts/CircularStd-BookItalic.ttf') format('truetype'), url('../fonts/CircularStd-BookItalic.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
+    src: url('../fonts/CircularStd-BookItalic.eot?#iefix')
+            format('embedded-opentype'),
+        url('../fonts/CircularStd-BookItalic.woff') format('woff'),
+        url('../fonts/CircularStd-BookItalic.ttf') format('truetype'),
+        url('../fonts/CircularStd-BookItalic.svg#bcc26993292869431e54c666aafa8fcd')
+            format('svg');
     font-weight: 400;
     font-style: italic;
     font-display: swap;
@@ -173,7 +212,7 @@ h2,
 h3,
 h4 {
     line-height: 1.1;
-    letter-spacing: -.1rem;
+    letter-spacing: -0.1rem;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */
@@ -204,8 +243,8 @@ h4 {
 }
 
 .banner__name:after {
-    border-block-end: .2rem solid var(--color-pink);
-    content: "";
+    border-block-end: 0.2rem solid var(--color-pink);
+    content: '';
     display: block;
     width: 20%;
 }
@@ -232,7 +271,7 @@ h4 {
 
 .intro__photos img {
     border-radius: var(--spacing);
-    box-shadow: var(--spacing) var(--spacing) 2.4rem rgba(0, 0, 0, .2);
+    box-shadow: var(--spacing) var(--spacing) 2.4rem rgba(0, 0, 0, 0.2);
     object-fit: cover;
     object-position: center;
     width: 100%;
@@ -272,4 +311,58 @@ h4 {
     padding: 2.4rem;
     font-size: 1.3em;
     color: var(--color-accent);
+}
+
+.layout-padding {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 2vh;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 30.3vh);
+    grid-gap: 2vh;
+    max-width: 1000px;
+}
+
+.photo-grid__message {
+    background-color: var(--color-brand);
+    color: white;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+    font-size: 2.6rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.photo-grid__message em {
+    color: white;
+}
+
+.photo-grid__image {
+    background-image: var(--img);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo-grid__image--wide {
+    grid-column-end: span 3;
+}
+
+.photo-grid__image--medium {
+    grid-column-end: span 2;
+}
+
+.photo-grid__image--top {
+    background-position: top;
 }
